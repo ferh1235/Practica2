@@ -8,7 +8,7 @@ test('Promedio de números con defecto', () => {
 });
 
 test('Promedio de números corregido', () => {
-    expect(calcularPromedioCorregido([10, 20, 30, 40, 50])).toBe(30);
+    expect(calcularPromedioCorregido([10, 20, 100, 40, 50])).toBe(30);
     expect(calcularPromedioCorregido([])).toBe(0); // Corrección: debería devolver 0
 });
 
